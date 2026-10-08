@@ -11,7 +11,7 @@ class Sensor extends Model
     use HasFactory;
 
     protected $fillable = [
-        'anbiente_id',
+        'ambiente_id',
         'codigo', //TEP01, TEMP2, LED01, LED02...
         'tipo', //led, temeperatura...
         'descricao',
